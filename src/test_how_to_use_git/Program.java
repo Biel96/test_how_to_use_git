@@ -2,8 +2,8 @@ package test_how_to_use_git;
 
 public class Program {
 
-	static String name;
-	static int number;
+	public String name;
+	public int number;
 
 	public Program(String name, int cpf) {
 		this.name = name;
