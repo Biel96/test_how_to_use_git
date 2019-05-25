@@ -48,11 +48,12 @@ public class Program {
 		 * 
 		 * git init -> inicia um novo repositório local na pasta do seu projeto git
 		 * remote add origin URL.git -> associa seu repositório remoto com o apelido
-		 * "origin" git pull origin master -> atualiza seu repositório local em relação
-		 * ao repositório remoto git status -> autoexplicativo git add . -> adiciona
-		 * todos os arquivos ao stage git commit -m "Projeto criado" -> salva uma nova
-		 * versão do projeto git push -u origin master -> envia o repositório local para
-		 * o repositório remoto
+		 * "origin" git pull origin master -> atualiza seu repositório local em relação ao repositório remoto 
+		 * git status -> autoexplicativo 
+		 * git add . -> adiciona todos os arquivos ao stage 
+		 * git commit -m "Projeto criado" -> salva uma nova
+		 * versão do projeto 
+		 * git push -u origin master -> envia o repositório local para o repositório remoto
 		 * 
 		 */
 		String name = "Hello!";
@@ -70,6 +71,13 @@ public class Program {
 		
 		System.out.println(x.toString());
 		
+		
+		/*
+		 * A sequência de committs deve ser respeitada. 
+		 * Suponha que o repositório do seu computador estava em uma versão atrasada em relação ao Github, 
+		 * daí você esquece de atualizá-lo (git pull origin master) e faz algumas alterações.
+		 * O Git não vai aceitar o push neste caso.
+		 */
 		
 
 	}
